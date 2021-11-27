@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -77,6 +76,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-image: url(../images/Sports.jpg);
 }
 
 .intro h2 {
@@ -97,9 +97,38 @@ section {
     margin: 0 auto;
 }
 
+#about-me {
+    display: flex;
+}
+
 .Finished-Work{
-    text-align: center;
     background: #fce138;
+    display: flex;
+}
+
+.left-container {
+    flex: 25%;
+    text-align: right;
+    margin-right: 15px;
+    border-right: 3px solid blue;
+    padding-right: 10px;
+}
+
+.right-container {
+    display: flex;
+    flex: 75%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.right-container img {
+    flex: 20%;
+    height: 300px;
+}
+
+.right-container img:first-child {
+    flex: 100%;
+    height: 300px;
 }
 
 .Finished-Work h2 {
@@ -138,3 +167,13 @@ section {
 .flex-row {
     display: flex;
 }
+
+@media only screen and (max-width: 700px){
+    .Finished-Work {
+        flex-direction: column;
+    }
+    #about-me {
+        display: flex;
+        flex-direction: column
+    }
+}; 
