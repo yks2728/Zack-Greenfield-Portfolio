@@ -58,3 +58,16 @@ footer h2 {
 footer a {
     color: #024e76;
 }
+
+section {
+    padding: 60px;
+}
+
+.intro {
+    background-image: url(../images/Sports.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: left;
+}
