@@ -71,7 +71,6 @@ section {
 }
 
 .intro {
-    background-image: url(../images/Sports.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
