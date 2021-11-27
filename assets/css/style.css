@@ -54,6 +54,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 footer h2 {
@@ -108,6 +109,26 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #39a6b2;
+}
+
+.Projects {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #39a6b2;
+    text-align: center;
+}
+
+.On-My-Own {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #39a6b2;
+    text-align: center;
 }
 
 .Contact-Info{
