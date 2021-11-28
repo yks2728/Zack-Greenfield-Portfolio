@@ -122,8 +122,9 @@ section {
 }
 
 .right-container img {
-    flex: 20%;
+    flex: 50%;
     height: 300px;
+    width: 50%;
 }
 
 .right-container img:first-child {
