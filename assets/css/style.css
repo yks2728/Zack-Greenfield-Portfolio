@@ -153,6 +153,7 @@ img {
     border-bottom: 3px solid;
     border-color: #39a6b2;
     text-align: center;
+    display: flex;
     flex-direction: column;
 }
 
@@ -164,6 +165,7 @@ img {
     border-bottom: 3px solid;
     border-color: #39a6b2;
     text-align: center;
+    display: flex;
 }
 
 .On-My-Own {
@@ -173,11 +175,13 @@ img {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #39a6b2;
+    display: flex;
     text-align: center;
 }
 
 .Contact-Info{
     text-align: center;
+    display: flex;
 }
 
 .flex-row {
