@@ -15,6 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-bottom: #fce138;
 }
 
 header h1 {
@@ -22,6 +23,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    border-bottom: #fce138;
 }
 
 header a {
@@ -31,6 +33,7 @@ header a {
 
 header nav {
     margin: 7px 0;
+    
 }
 
 header nav ul {
@@ -39,12 +42,14 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
+    
 }
 
 footer {
@@ -103,7 +108,6 @@ section {
 }
 
 .Finished-Work{
-    background: #fce138;
     display: flex;
 }
 
@@ -113,6 +117,8 @@ section {
     margin-right: 15px;
     border-right: 3px solid blue;
     padding-right: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .right-container {
@@ -122,13 +128,19 @@ section {
     flex-direction: row;
 }
 
-.right-container img {
+img {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.container img {
     flex: 50%;
     height: 300px;
     width: 50%;
 }
 
-.right-container img:first-child {
+.container img:first-child {
     flex: 100%;
     height: 300px;
 }
@@ -140,6 +152,8 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #39a6b2;
+    text-align: center;
+    flex-direction: column;
 }
 
 .Projects {
@@ -170,13 +184,8 @@ section {
     display: flex;
 }
 
-.responsive {
-    width: 100%;
-    height: auto;
-}
-
 .column{
-    float: left;
+    float: inline-end;
     width: 25%;
 }
 
