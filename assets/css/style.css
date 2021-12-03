@@ -1,7 +1,8 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 body {
@@ -15,15 +16,21 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-bottom: #fce138;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
 }
 
 header h1 {
     font-weight: bold;
+    margin: 0;
     font-size: 36px;
     color: #fce138;
-    margin: 0;
-    border-bottom: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0. 0.5);
 }
 
 header a {
@@ -45,34 +52,36 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
 }
 
 footer {
     background: #fce138;
-    width: 100%;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    text-align: center;
+    width: 100%;
 }
 
 footer h2 {
-    color: 024e76;
+    color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer a {
     color: #024e76;
-}
-
-section {
-    padding: 60px;
 }
 
 .intro {
@@ -103,29 +112,25 @@ section {
 }
 
 #about-me {
+    background-size: cover;
+    background-position: center;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-me-text {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .Finished-Work{
     display: flex;
 }
 
-.left-container {
-    flex: 25%;
-    text-align: right;
-    margin-right: 15px;
-    border-right: 3px solid blue;
-    padding-right: 10px;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.right-container {
-    display: flex;
-    flex: 75%;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
 
 img {
     width: 100%;
@@ -133,7 +138,7 @@ img {
     flex-wrap: wrap;
 }
 
-.container img {
+.right-container img {
     flex: 50%;
     height: 300px;
     width: 50%;
@@ -153,10 +158,9 @@ img {
     border-color: #39a6b2;
     text-align: center;
     display: flex;
-    flex-direction: column;
 }
 
-.Projects {
+.Projects h2 {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
@@ -167,7 +171,7 @@ img {
     display: flex;
 }
 
-.On-My-Own {
+.On-My-Own h2 {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
@@ -181,6 +185,7 @@ img {
 .Contact-Info{
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex-row {
