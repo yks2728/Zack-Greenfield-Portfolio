@@ -192,11 +192,6 @@ img {
     display: flex;
 }
 
-.column{
-    float: inline-end;
-    width: 25%;
-}
-
 @media only screen and (max-width: 700px){
     .Finished-Work {
         flex-direction: column;
