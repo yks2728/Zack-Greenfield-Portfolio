@@ -1,6 +1,6 @@
 ## Zack Greenfield's Portfolio
 
-## This is my portfolio
+## This is my professional portfolio. Here you will find all of my awesome work.
 
 
 ![alt text][picture 1]
