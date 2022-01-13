@@ -5,11 +5,11 @@
 
 ![alt text][picture 1]
 
-[picture 1]:./assets/images/screenshot-of-redeployed-challenge-2-application-1.PNG
+[picture 1]:./assets/images/screenshot-of-updated-redeployed-challenge-2-application-1.PNG
 
 ![alt text][picture 2]
 
-[picture 2]: ./assets/images/screenshot-of-redeployed-challenge-2-application-2.PNG
+[picture 2]:./assets/images/screenshot-of-updated-redeployed-challenge-2-application-2.PNG
 
 [Link to my Deployed Application](https://yks2728.github.io/Zack-Greenfield-Portfolio/)
 
