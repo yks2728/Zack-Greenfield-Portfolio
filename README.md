@@ -5,7 +5,7 @@
 
 ![alt text][picture 1]
 
-[picture 1]:./assets/images/screenshot-of-updated-redeployed-challenge-2-application-(1).PNG
+[picture 1]:./assets/images/screenshot-of-updated-redeployed-challenge-2-application-with-project.PNG
 
 ![alt text][picture 2]
 
