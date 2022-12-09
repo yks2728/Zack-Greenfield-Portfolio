@@ -2,85 +2,114 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <title>Zack Greenfield's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lernantino // Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
+  <!-- main logo / nav -->
   <header>
-    <h1>
-      <a href="index.html">Zack Greenfield's Portfolio</a>
-    </h1>
+    <h1>Lernantino</h1>
     <nav>
-      <ul>
-        <li>
-          <a href="#About Me">About Me</a>
-        </li>
-        <li>
-          <a href="#Coursework">Projects</a>
-        </li>
-        <li>
-          <a href="#Reach Out">Reach Out</a>
-        </li>
-      </ul>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+      <a href="#">Resume</a>
     </nav>
   </header>
 
-  <section id="Hello" class="intro">
-    <div class="flex-row">
-      <h2 class="section-title primary-border">
-        Hi I'm Zack
-      </h2>
-    </div>
-  </section>
-
-  <section id="about-me">
-    <div class="flex-row">
-      <a href="https://www.linkedin.com/in/zack-greenfield-1052923b/">
-        <img src="./assets/images/Linked-In-Picture.jpg" alt="Headshot of Me" style="width: 100px; height: 100px"></a>
-      <h2 class="section-title secondary-border">
-        About Me
-      </h2>
-    </div>
-    <div class="about-me-text">
-      <h3>I'm a huge baseball fan who is interested in getting into coding.</h3>
-    </div>
-  </section>
-
-  <section id="Coursework" class="Finished-Work">
-    <div class="left-container">
-      <h2>Projects</h2>
-    </div>
-    <div class="right-container">
-      <div class="first-image">
-        <a href="https://yks2728.github.io/Screen-Title-Scanner/">
-          <img src="assets/images/screenshot-of-deployed-final-project-1-application.PNG" alt="screenshot of screen title scanner"></a>
-      </div>
-      <div class="imgContainer">
-        <a href="https://myhealth-chart.herokuapp.com/">
-          <img src="assets/images/screen-shot-of-deployed-final-project-2-application.PNG" alt="screenshot of my health chart"></a>
-        <a href="https://yks2728.github.io/Password-Generator/">
-          <img src="assets/images/screen-shot-of-password-generator.PNG" alt="screenshot of password generator"></a>
-      </div>
-  </div>
-  </section>
-
-  <section id="Reach Out" class="Contact-Info">
+  <!-- hero banner -->
+  <section class="hero-banner">
     <div>
-      <h2>Reach Out for Any Inquiries</h2>
-      <address>
-        P: 914.980.8279<br />
-        E: <a href="mailto:zackg007@verizon.net">zackg007@verizon.net</a>
-      </address>
+      <h2>Cool subtitle here!</h2>
     </div>
   </section>
 
-  <footer>
-    <h2>Hope You Enjoyed My Work</h2>
-  </footer>
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter
+          plaid
+          direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard
+          Carles you
+          probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut
+          paleo
+          scenester
+        </p>
+        <p>
+          Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal
+          dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx
+          Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap
+          squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't
+          heard of them American Apparel next level pug ugh.
+        </p>
+      </div>
+    </section>
+
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="flex-container">
+
+        <a href="#" class="flex-item surf-report">
+          <div>
+            <h3>Surf Report</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+        
+        <a href="#" class="flex-item led-wall">
+          <div>
+            <h3>LED Wall</h3>
+            <span>Node/IoT</span>
+          </div>
+        </a>
+        <a href="#" class="flex-item react-calc">
+          <div>
+            <h3>Calculator</h3>
+            <span>React/JavaScript/CSS</span>
+          </div>
+        </a>
+
+        <a href="#" class="flex-item pastel-puzzles">
+          <div>
+            <h3>Pastel Puzzels</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+
+    
+        <a href="#" class="flex-item run-buddy">
+          <div>
+            <h3>Run Buddy</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+15555555555">555.555.5555</a>
+          <a href="mailto:lernantino@website.com">lernantino@website.com</a>
+          <a href="#">GitHub</a>
+          <a href="#">Twitter</a>
+          <a href="#">Spotify</a>
+        </address>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
